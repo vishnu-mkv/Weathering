@@ -140,52 +140,52 @@ async function handleLocation(val) {
         alt=""
         class="inline aspect-square h-20"
     />
-    <span class="text-2xl font-bold text-primary"> ${today.main.temp}° C </span>
+    <span class="text-2xl font-bold"> ${today.main.temp}° C </span>
   </div>
         <div class="flex flex-wrap justify-center items-center gap-5">
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
             <span class="text-lg font-semibold text-gray-900"> ${
               today.wind.speed
             } km/hr </span> <br />
             <span class="text-md text-gray-700">Wind Speed</span>
         </div>
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.feels_like
         } ° C</span> <br />
         <span class="text-md text-gray-700">Feels like</span>
         </div>
         
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.humidity
         } g.m-3</span> <br />
         <span class="text-md text-gray-700">Humidity</span>
         </div>
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.pressure
         } hPa</span> <br />
         <span class="text-md text-gray-700">Pressure</span>
         </div>
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.temp_min
         } ° C</span> <br />
         <span class="text-md text-gray-700">Maximum</span>
         </div>
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.temp_max
         } ° C</span> <br />
         <span class="text-md text-gray-700">Minimum</span>
         </div>
-        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        <div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.sea_level
         } m</span> <br />
         <span class="text-md text-gray-700">Sea Level</span>
-        </div><div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[120px] h-[80px]">
+        </div><div class="p-3 text-center rounded-md bg-slate-200 bg-opacity-20 grow w-[140px] h-[80px]">
         <span class="text-lg font-semibold text-gray-900"> ${
           today.main.grnd_level
         } m</span> <br />
