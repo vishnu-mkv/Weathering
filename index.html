@@ -2,14 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather</title>
-    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
-    <script src="index.js" defer></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Vite + React</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
       rel="stylesheet"
@@ -20,44 +15,8 @@
       }
     </style>
   </head>
-  <body
-    class="min-h-screen grid items-center"
-    style="
-      background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg);
-    "
-  >
-    <div
-      class="bg-white bg-opacity-40 backdrop-blur-md drop-shadow-lg mx-auto p-3 sm:p-5 rounded-md space-y-5 max-w-[750px] md:my-3"
-    >
-      <div class="text-xl my-3">
-        <span>Currently in </span
-        ><select
-          name=""
-          id="input"
-          class="bg-transparent outline-none font-bold"
-        >
-          <option value="chennai">Chennai</option>
-          <option value="mumbai">Mumbai</option>
-          <option value="delhi">Delhi</option>
-          <option value="kolkata">Kolkata</option>
-          <option value="bangalore">Bangalore</option>
-          <option value="hyderabad">Hyderabad</option>
-          <option value="ahmedabad">Ahmedabad</option>
-          <option value="pune">Pune</option>
-        </select>
-      </div>
-      <div id="detail"></div>
-      <div>
-        <h2
-          class="mt-14 my-5 font-semibold text-center p-3 bg-slate-700 rounded text-gray-200"
-        >
-          5-Day Forecasts
-        </h2>
-        <div
-          id="days"
-          class="flex gap-3 flex-wrap items-center justify-between"
-        ></div>
-      </div>
-    </div>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
